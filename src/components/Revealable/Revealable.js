@@ -9,7 +9,7 @@ function Revealable({ children }) {
 
   return (
     isRevealed ? (
-        children
+      children
     ) : (
       <div className="reveal">
         <button
